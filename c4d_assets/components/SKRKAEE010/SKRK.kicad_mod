@@ -1,0 +1,151 @@
+(footprint "SKRK"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "<b>SKRK</b><br>")
+	(property "Reference" "REF**"
+		(at -0.349919 -0.034073 0)
+		(layer "F.SilkS")
+		(uuid "cdf5ce63-a125-4f3b-a61e-5b8e90c2e501")
+		(effects
+			(font
+				(size 1.002748 1.002748)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SKRK"
+		(at -0.349599 -0.034042 0)
+		(layer "F.Fab")
+		(uuid "88308367-7b54-4b57-b14f-a26af7026d35")
+		(effects
+			(font
+				(size 1.001827 1.001827)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d28e347a-9820-44e3-bf82-9f26e46b5648")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0909a7b7-8b67-4fe6-b9a5-6f0387457e86")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "41e80453-5d95-43d4-a29b-ba0dd28c445e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.95 -1.45)
+		(end 1.95 -1.45)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "7ece8886-162f-42d4-bd0f-9026aa1794ac")
+	)
+	(fp_line
+		(start 1.95 1.45)
+		(end -1.95 1.45)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "fa3ef6c1-b33b-4d22-8d3e-dcf718ba6f99")
+	)
+	(fp_circle
+		(center -2.808 -0.014)
+		(end -2.73168 -0.014)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "af7ec7c3-2d71-4c9a-bf6f-d118d55f8d9a")
+	)
+	(fp_line
+		(start -1.95 -1.45)
+		(end 1.95 -1.45)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "af494bc1-b933-419e-9783-30742730df2f")
+	)
+	(fp_line
+		(start -1.95 1.45)
+		(end -1.95 -1.45)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1cc67cf2-ddfb-4ecb-9ff2-1b5228ec9eea")
+	)
+	(fp_line
+		(start 1.95 -1.45)
+		(end 1.95 1.45)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "716386f7-8732-453d-9a8d-9855f17f4bbe")
+	)
+	(fp_line
+		(start 1.95 1.45)
+		(end -1.95 1.45)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "50a5c9dd-3a43-4df1-b918-11ffbc356aee")
+	)
+	(pad "1" smd rect
+		(at -2.1 0)
+		(size 0.8 2)
+		(layers "F.Cu" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "17ea0444-7089-43cc-af8d-b1af7ecef634")
+	)
+	(pad "2" smd rect
+		(at 2.1 0)
+		(size 0.8 2)
+		(layers "F.Cu" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "dbdb941a-414b-4cc8-b736-9e289fb0ec6e")
+	)
+)
