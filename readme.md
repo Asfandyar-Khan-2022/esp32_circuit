@@ -1,1 +1,1 @@
- <video loop src="pcb_360.mp4">  video </video> 
+ <video loop src="https://cdn.discordapp.com/attachments/1022999502975664129/1327480523676979220/esp32_front_pcb_360.mp4?ex=67833814&is=6781e694&hm=28d8638278647dbc779c7d77384b581d35094b70810547bf134dc499996c9c21&">  video </video> 
